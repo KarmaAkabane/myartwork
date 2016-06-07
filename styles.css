@@ -1,0 +1,85 @@
+.title
+{
+    color: rgb(245,99,0);
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+
+.description
+{
+	color: rgb(255,255,255);
+	font-size: 20px;
+	border: 3px solid blue;
+	background-color: red;
+	padding-top: 50px;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}
+
+.image {
+    width: 200px;
+    position: relative;
+    left: 20px;
+}
+
+.largeimage{
+    width: 400px;
+    position: relative;
+    left: 20px;
+}
+
+.largerimage{
+    width: 800px;
+    position: relative;
+    left: 20px;
+}
+
+
+.chart {
+    width: 500px;
+    height: 500px;
+}
+
+.circ1 {
+    stroke: black; 
+    fill: black;
+    stroke-width: 5;
+}
+
+.rec1 {
+    stroke: green; 
+    fill: blue;
+    stroke-width: 5;
+}
+
+.polyst{
+	fill: rgb(255,204,153);
+	stroke-width:8;
+	stroke: black;
+	fill-rule:nonzero;
+}
+
+.polyst2{
+	fill:rgb(204,102,0);
+	stroke-width:5;
+	stroke: black;
+	fill-rule:nonzero;
+}
+
+.polyst3{
+	fill:url(#grad1);
+	stroke-width:8;
+	stroke: black;
+	fill-rule:nonzero;
+}
+
+.polyst4{
+	fill:url(#grad2);
+	stroke-width:8;
+	stroke: black;
+	fill-rule:nonzero;
+}
+
+
